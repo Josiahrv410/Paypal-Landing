@@ -1,0 +1,326 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+body {
+  max-width: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.wrapper {
+  max-width: 1192px;
+  margin: 0 auto;
+}
+
+/*==========================================
+================= HEADER ===================
+==========================================*/
+
+.header-wrap {
+  background: linear-gradient(100deg, #0070ba, #1546a0);
+  background-color: linear-gradient(100deg, #0070ba, #1546a0);
+  padding: 20px 175px;
+}
+
+header {
+  max-width: 1192px;
+  margin: 0 auto;
+}
+
+header img {
+  margin-right: 9px;
+}
+
+header a {
+  background: white;
+  float: right;
+  border-radius: 50px;
+  font-size: 11px;
+}
+
+header .sign {
+  color: #2c2e2f;
+  padding: 12px 25px;
+  margin-left: 9px;
+}
+
+header .log {
+  border: 1.2px solid white;
+  background: #ffffff00;
+  color: white;
+  padding: 11px 25px;
+}
+
+/*==========================================
+================ DETAILS ===================
+==========================================*/
+
+.details {
+  padding-top: 30px;
+}
+
+.details img {
+  height: 72px;
+  width: 72px;
+  margin-bottom: 25px;
+}
+
+.details p {
+  text-align: center;
+  color: #2c2e2f;
+  font-weight: 300;
+  margin: 10px 0 30px;
+}
+
+.details h4 {
+  text-align: center;
+  color: #2c2e2f;
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 40px;
+  line-height: 2.4rem;
+}
+
+.details a {
+  border-radius: 50px;
+  background: #0070ba;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding: 17px 9%;
+  display: block;
+  margin: 0 36%;
+}
+
+.details span {
+  text-align: center;
+  color: #2c2e2f;
+  margin: 30px auto;
+  font-weight: bold;
+}
+
+/*----------- DIVIDER -------------*/
+
+.wrapper .divider {
+  background-image: linear-gradient(
+    to right,
+    #b7bcbf 50%,
+    rgba(255, 255, 255, 0) 40%
+  );
+  width: 50%;
+  margin: 40px auto;
+  border-bottom: 1px dotted #e2e6e8;
+}
+
+/*----------- VALID -------------*/
+
+.valid {
+  margin: 40px auto;
+  border-bottom: 1px dotted #e2e6e8;
+}
+.valid p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 40px auto;
+  color: #2c2e2f;
+}
+
+/*==========================================
+================= TERMS ====================
+==========================================*/
+
+.terms h2 {
+  text-align: center;
+  color: #2c2e2f;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.terms p {
+  padding-bottom: 40px;
+  border-bottom: 1px dotted #e2e6e8;
+}
+
+.terms p span {
+  text-align: center;
+  display: block;
+  color: #2c2e2f;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+/*==========================================
+================== STEPS ===================
+==========================================*/
+
+.steps {
+  padding-bottom: 40px;
+}
+
+.steps h3 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #4a4a4a;
+}
+
+.steps img {
+  display: inline-block;
+  height: 90px;
+}
+
+/*----------- PIC PROCESS -------------*/
+
+.pic-process {
+  margin: 0px 21%;
+  width: 59%;
+}
+
+.pic-process img {
+  height: 173px;
+  width: 32%;
+}
+
+.pic-process .shadow {
+  width: 33%;
+  -webkit-box-shadow: 2px 3px 34px -23px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 2px 3px 34px -23px rgba(0, 0, 0, 0.21);
+  box-shadow: 2px 3px 34px -23px rgba(0, 0, 0, 0.21);
+}
+
+/*----------- WRITTEN STEPS -------------*/
+
+.written-steps {
+  margin: 50px 17%;
+}
+
+.written-steps .left {
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.written-steps .left span {
+  padding: 12px 18px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  position: absolute;
+  left: -60px;
+}
+
+.written-steps .left p {
+  display: inline-block;
+  color: #2c2e2f;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.written-steps .right {
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.written-steps .right span {
+  padding: 12px 18px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  position: absolute;
+  left: -60px;
+}
+
+.written-steps .right p {
+  display: inline-block;
+  color: #2c2e2f;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/*==========================================
+================= BOTTOM NAV ===============
+==========================================*/
+
+.bottom-nav {
+  border-bottom: 1px dotted #e2e6e8;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.bottom-nav ul {
+  list-style: none;
+}
+
+.bottom-nav ul li {
+  display: inline-block;
+}
+
+.bottom-nav .flag {
+  float: right;
+}
+
+.bottom-nav a {
+  color: black;
+  padding-right: 9px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/*==========================================
+================== LINKS ===================
+==========================================*/
+
+.links {
+  padding-bottom: 20px;
+}
+
+.links .left {
+  display: inline-block;
+}
+
+.links .left a {
+  color: #6c7378;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding-right: 9px;
+}
+
+.links .right {
+  float: right;
+  display: inline-block;
+}
+
+.links .right span {
+  color: #6c7378;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.links .right a {
+  color: #6c7378;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding-left: 9px;
+}

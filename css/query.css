@@ -1,0 +1,102 @@
+/* laptops */
+@media only screen and (max-width: 1214px) {
+    .bottom-nav {
+        text-align: initial;
+}
+
+/* tablet devices */
+@media only screen and (max-width: 1023px) {
+  header .full-logo {
+    display: none;
+  }
+
+  header .sign {
+    display: none;
+  }
+
+  .bottom-nav {
+    text-align: center;
+    padding: 0 10%;
+    padding-top: 20px;
+    position: relative;
+  }
+
+  .bottom-nav .flag {
+    float: none;
+    padding-bottom: 10px;
+  }
+
+  .links {
+    text-align: center;
+    padding: 0 10%;
+  }
+
+  .links .right {
+    float: none;
+    padding: 0 10%;
+  }
+}
+
+/* mobile devices */
+@media only screen and (max-width: 767px) {
+  .header-wrap {
+    padding: 10px 7%;
+  }
+
+  header .full-logo {
+    display: none;
+  }
+
+  header .sign {
+    display: none;
+  }
+
+  .details h4 {
+    padding: 0 10%;
+  }
+
+  .details a {
+    text-align: center;
+    padding: 17px 19%;
+    margin: 0 20%;
+    font-size: 0.9rem;
+  }
+
+  .valid {
+    padding: 0 10%;
+  }
+
+  .terms {
+    padding: 0 10%;
+  }
+
+  .steps {
+    padding: 0 10%;
+  }
+
+  .steps .pic-process img {
+    display: none;
+  }
+
+  .bottom-nav {
+    text-align: center;
+    padding: 0 10%;
+    padding-top: 20px;
+    position: relative;
+  }
+
+  .bottom-nav .flag {
+    float: none;
+    padding-bottom: 10px;
+  }
+
+  .links {
+    text-align: center;
+    padding: 0 10%;
+  }
+
+  .links .right {
+    float: none;
+    padding: 0 10%;
+  }
+}
